@@ -1,0 +1,36 @@
+
+<html>
+<head>
+    <style>
+        body{
+            background-color: rgb(232, 166, 234);
+        }
+        h1{
+            color: rgb(184, 85, 102);
+        }
+    </style>
+    <title>Marla to Square Feet Converter</title>
+    <script>
+        function convertMarlaToSquareFeet() {
+            // Get the value of Marla input
+            var marla = parseFloat(document.getElementById("marla").value);
+            
+            // Conversion factor: 1 Marla is equal to 225 square feet
+            var squareFeet = marla * 225;
+            
+            // Display the result on the screen
+            document.getElementById("result").innerHTML = marla + " Marla is equal to " + squareFeet + " Square Feet.";
+        }
+    </script>
+</head>
+<body>
+    <h1>Marla to Square Feet Converter</h1>
+    <form>
+        <label for="marla">Enter the number of Marla:</label>
+        <input type="number" id="marla" placeholder="Enter Marla" step="0.01" required>
+        <br>
+        <input type="button" value="Convert" onclick="convertMarlaToSquareFeet()">
+    </form>
+    <p id="result"></p>
+</body>
+</html>
