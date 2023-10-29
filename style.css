@@ -1,0 +1,21 @@
+*{
+    background-color: antiquewhite;
+}
+h1{
+    color: rgb(126, 91, 159);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+.meow{
+    font-family: cursive;
+    font-size: 30px;
+}
+.m{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.m:hover{
+    color: rgb(183, 136, 160);
+    
+}
